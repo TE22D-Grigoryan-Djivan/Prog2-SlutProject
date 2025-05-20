@@ -1,9 +1,7 @@
-import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args) {
+        Bibliotekssystem bibliotekssystem = new Bibliotekssystem();
+        bibliotekssystem.meny();
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("");
     }
 }

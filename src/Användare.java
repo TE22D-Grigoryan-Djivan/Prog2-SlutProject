@@ -2,11 +2,25 @@ import java.util.ArrayList;
 
 public class Användare {
     public String användarnamn;
-    public int lånekortnummmer;
-    private ArrayList<Låneobjekt> lånadeobjekt = new ArrayList<>();
+    public int lånekortnummer;
+    private ArrayList<Låneobjekt> låneLista = new ArrayList<>();
+
+    public Användare(String användarnamn, int lånekortnummer){
+        this.användarnamn = användarnamn;
+        this.lånekortnummer = lånekortnummer;
+    }
 
     public boolean lånaobjekt(Låneobjekt objekt){
-        return true;
+        if (objekt.ärTillänglig()){
+            låneLista.add(objekt);
+            objekt.markeraSomLånad();
+            System.out.println(användarnamn + " har lånat " + objekt.getTitel());
+            return true;
+        }
+        else {
+            System.out.println("");
+            return false;
+        }
     }
 
     public void lämnaTillbaka(Låneobjekt objekt){

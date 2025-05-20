@@ -4,17 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8a444d9-984d-474d-83ac-bac48bb627ee" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Användare.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bibliotekssystem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DVD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ljudbok.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Låneobjekt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Skivor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TVspel.java" afterDir="false" />
+    <list default="true" id="f8a444d9-984d-474d-83ac-bac48bb627ee" name="Changes" comment="Strukturen gjord">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Användare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Användare.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bibliotekssystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bibliotekssystem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DVD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ljudbok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ljudbok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Låneobjekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Låneobjekt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Skivor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skivor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TVspel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TVspel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +54,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
@@ -82,11 +83,24 @@
       <option name="presentableId" value="Default" />
       <updated>1742203921144</updated>
       <workItem from="1742203922254" duration="2871000" />
-      <workItem from="1743588822832" duration="14070000" />
+      <workItem from="1743588822832" duration="20554000" />
+      <workItem from="1746007942314" duration="13181000" />
     </task>
+    <task id="LOCAL−00001" summary="Strukturen gjord">
+      <option name="closed" value="true" />
+      <created>1745761034209</created>
+      <option name="number" value="LOCAL−00001" />
+      <option name="presentableId" value="LOCAL−00001" />
+      <updated>1745761034209</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Strukturen gjord" />
+    <option name="LAST_COMMIT_MESSAGE" value="Strukturen gjord" />
   </component>
 </project>
