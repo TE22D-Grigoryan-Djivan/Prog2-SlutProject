@@ -2,7 +2,8 @@ public class DVD extends Skivor{
     private int spelTid;
     private String filmGenre;
 
-    public DVD(int spelTid, String filmGenre){
+    public DVD(String titel, String författare, boolean ärTillänglig, int spelTid, String filmGenre){
+        super(titel, författare, ärTillänglig, "DVD");
         this.spelTid = spelTid;
         this.filmGenre = filmGenre;
     }

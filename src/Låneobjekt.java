@@ -3,7 +3,7 @@ public class Låneobjekt {
     protected String författare;
     protected boolean ärTillänglig;
 
-    public Låneobjekt(){
+    public Låneobjekt(String titel, String författare, boolean ärTillänglig){
         this.titel = titel;
         this.författare = författare;
         this.ärTillänglig = ärTillänglig;

@@ -1,7 +1,8 @@
 public class Skivor extends Låneobjekt{
     private String format;
 
-    public Skivor(){
+    public Skivor(String titel, String författare, boolean ärTillänglig, String format){
+        super(titel, författare, ärTillänglig);
         this.format = format;
     }
 
