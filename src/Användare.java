@@ -18,7 +18,7 @@ public class Användare {
             return true;
         }
         else {
-            System.out.println("");
+            System.out.println(objekt.getTitel() + " är inte tillänglig för utlåning.");
             return false;
         }
     }
