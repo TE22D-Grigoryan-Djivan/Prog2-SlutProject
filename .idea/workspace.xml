@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8a444d9-984d-474d-83ac-bac48bb627ee" name="Changes" comment="La till rätt return värden för hämtainfo klassen">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Användare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Användare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bibliotekssystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bibliotekssystem.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bok.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Bokning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bokning.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DVD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Ljudbok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ljudbok.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Låneobjekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Låneobjekt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Skivor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skivor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TVspel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TVspel.java" afterDir="false" />
-    </list>
+    <list default="true" id="f8a444d9-984d-474d-83ac-bac48bb627ee" name="Changes" comment="Lagt till kommentarer och gjort en snabb sista granskning" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +73,7 @@
       <updated>1742203921144</updated>
       <workItem from="1742203922254" duration="2871000" />
       <workItem from="1743588822832" duration="20554000" />
-      <workItem from="1746007942314" duration="35279000" />
+      <workItem from="1746007942314" duration="38733000" />
     </task>
     <task id="LOCAL−00001" summary="Strukturen gjord">
       <option name="closed" value="true" />
@@ -128,7 +117,14 @@
       <option name="presentableId" value="LOCAL−00006" />
       <updated>1747851274632</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL−00007" summary="Lagt till kommentarer och gjort en snabb sista granskning">
+      <option name="closed" value="true" />
+      <created>1747856463471</created>
+      <option name="number" value="LOCAL−00007" />
+      <option name="presentableId" value="LOCAL−00007" />
+      <updated>1747856463471</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +137,7 @@
     <MESSAGE value="La till getters och andra klasser för ett mer komplett program. Fixade konstruktörerna i de flesta klasser" />
     <MESSAGE value="Gjorde klart klasserna i bibsystemet" />
     <MESSAGE value="La till rätt return värden för hämtainfo klassen" />
-    <option name="LAST_COMMIT_MESSAGE" value="La till rätt return värden för hämtainfo klassen" />
+    <MESSAGE value="Lagt till kommentarer och gjort en snabb sista granskning" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lagt till kommentarer och gjort en snabb sista granskning" />
   </component>
 </project>

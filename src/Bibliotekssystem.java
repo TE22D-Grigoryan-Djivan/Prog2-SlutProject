@@ -209,19 +209,12 @@ public class Bibliotekssystem { //Huvudklass för systemet
         användare.visaLånadeObjekt();
     }
 
-    public int parseInt(String prompt){ // en loop som ser till att att inmatningen är en int
-        Scanner sc = new Scanner(System.in);
-        int number;
-        while(true) {
-            try {
-                System.out.println(prompt + "");
-                String input = sc.nextLine();
-                number = Integer.parseInt(input);
-                break;
-            } catch (NumberFormatException e) {
-                System.out.println("Ogilitig inmatning");
-            }
+    public int parseInt(String text){ //parse för korrekt inmatning
+        try {
+            return Integer.parseInt(text);
+        }catch (NumberFormatException e){
+            System.out.println("Ogiltig inmatning. Ange en siffra.");
+            return 0; // Standardvärde vid felaktig inmatning.
         }
-        return number;
     }
 }
