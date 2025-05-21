@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8a444d9-984d-474d-83ac-bac48bb627ee" name="Changes" comment="Strukturen gjord">
+    <list default="true" id="f8a444d9-984d-474d-83ac-bac48bb627ee" name="Changes" comment="La till rätt return värden för hämtainfo klassen">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Användare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Användare.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bibliotekssystem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bibliotekssystem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Bok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bok.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bokning.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bokning.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DVD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DVD.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ljudbok.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ljudbok.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Låneobjekt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Låneobjekt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Skivor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Skivor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/TVspel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TVspel.java" afterDir="false" />
     </list>
@@ -84,7 +84,7 @@
       <updated>1742203921144</updated>
       <workItem from="1742203922254" duration="2871000" />
       <workItem from="1743588822832" duration="20554000" />
-      <workItem from="1746007942314" duration="13181000" />
+      <workItem from="1746007942314" duration="35279000" />
     </task>
     <task id="LOCAL−00001" summary="Strukturen gjord">
       <option name="closed" value="true" />
@@ -93,7 +93,42 @@
       <option name="presentableId" value="LOCAL−00001" />
       <updated>1745761034209</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL−00002" summary="Jobbat på Bsystem och användare">
+      <option name="closed" value="true" />
+      <created>1747775631745</created>
+      <option name="number" value="LOCAL−00002" />
+      <option name="presentableId" value="LOCAL−00002" />
+      <updated>1747775631745</updated>
+    </task>
+    <task id="LOCAL−00003" summary="Jobbat på Bsystem och användare (glömdes säga att jag la till klassen bokning som anpassning)">
+      <option name="closed" value="true" />
+      <created>1747775795592</created>
+      <option name="number" value="LOCAL−00003" />
+      <option name="presentableId" value="LOCAL−00003" />
+      <updated>1747775795592</updated>
+    </task>
+    <task id="LOCAL−00004" summary="La till getters och andra klasser för ett mer komplett program. Fixade konstruktörerna i de flesta klasser">
+      <option name="closed" value="true" />
+      <created>1747780809654</created>
+      <option name="number" value="LOCAL−00004" />
+      <option name="presentableId" value="LOCAL−00004" />
+      <updated>1747780809654</updated>
+    </task>
+    <task id="LOCAL−00005" summary="Gjorde klart klasserna i bibsystemet">
+      <option name="closed" value="true" />
+      <created>1747824462984</created>
+      <option name="number" value="LOCAL−00005" />
+      <option name="presentableId" value="LOCAL−00005" />
+      <updated>1747824462984</updated>
+    </task>
+    <task id="LOCAL−00006" summary="La till rätt return värden för hämtainfo klassen">
+      <option name="closed" value="true" />
+      <created>1747851274632</created>
+      <option name="number" value="LOCAL−00006" />
+      <option name="presentableId" value="LOCAL−00006" />
+      <updated>1747851274632</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -101,6 +136,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Strukturen gjord" />
-    <option name="LAST_COMMIT_MESSAGE" value="Strukturen gjord" />
+    <MESSAGE value="Jobbat på Bsystem och användare" />
+    <MESSAGE value="Jobbat på Bsystem och användare (glömdes säga att jag la till klassen bokning som anpassning)" />
+    <MESSAGE value="La till getters och andra klasser för ett mer komplett program. Fixade konstruktörerna i de flesta klasser" />
+    <MESSAGE value="Gjorde klart klasserna i bibsystemet" />
+    <MESSAGE value="La till rätt return värden för hämtainfo klassen" />
+    <option name="LAST_COMMIT_MESSAGE" value="La till rätt return värden för hämtainfo klassen" />
   </component>
 </project>
