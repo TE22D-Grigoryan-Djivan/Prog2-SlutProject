@@ -9,7 +9,6 @@ public class DVD extends Skivor{
     }
 
     public String hämtaInformation(){
-
-        return null;
+        return  "DVD titel: " + titel + ", Skapare: " + författare + ", Speltid(min): " + spelTid + ", Film genre: " + filmGenre + ", Tillänglig: " + (ärTillänglig? "Ja" : "Nej");
     }
 }

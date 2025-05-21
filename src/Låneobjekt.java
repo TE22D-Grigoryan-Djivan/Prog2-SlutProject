@@ -10,7 +10,7 @@ public class Låneobjekt {
     }
 
     public String hämtaInformation(){
-        return null;
+        return "Låneobjektets titel: " + titel + ", Skapare: " + författare + ", Tillänglig: " + (ärTillänglig? "Ja" : "Nej");
     }
 
     public void markeraSomLånad(){
@@ -19,7 +19,8 @@ public class Låneobjekt {
     }
 
     public void markeraSomTillänglig() {
-
+        this.ärTillänglig = true;
+        System.out.println(titel + " har markerats som tillänglig.");
     }
 
     public String getTitel() {

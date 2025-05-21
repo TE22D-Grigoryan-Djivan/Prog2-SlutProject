@@ -10,6 +10,6 @@ public class Ljudbok extends Låneobjekt{
 
     public String hämtaInformation(){
 
-        return null;
+        return  "Ljudbok titel: " + titel + ", Författare: " + författare + ", Längd(min): " + längd + ", Uppläsare: " + uppläsare + ", Tillänglig: " + (ärTillänglig? "Ja" : "Nej");
     }
 }

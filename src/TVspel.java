@@ -9,7 +9,6 @@ public class TVspel extends Skivor{
     }
 
     public String hämtaInformation(){
-
-        return null;
+        return  "Tv-spel titel: " + titel + ", Skapare: " + författare + ", Plattform(PS/Xbox/Nintendo): " + plattform + ", Åldersgräns: " + åldersgräns + ", Tillänglig: " + (ärTillänglig? "Ja" : "Nej");
     }
 }

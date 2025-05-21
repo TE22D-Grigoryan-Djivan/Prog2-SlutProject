@@ -7,7 +7,6 @@ public class Skivor extends Låneobjekt{
     }
 
     public String hämtaInformation(){
-
-        return null;
+        return "Skivans titel: " + titel + ", Skapare: " + författare + ", Format(ex cd/blueray): " + format + ", Tillänglig: " + (ärTillänglig? "Ja" : "Nej");
     }
 }

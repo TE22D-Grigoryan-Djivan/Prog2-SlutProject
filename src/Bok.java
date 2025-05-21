@@ -10,7 +10,6 @@ public class Bok extends Låneobjekt{
     }
 
     public String hämtaInformation(){
-
-        return null;
+        return "Bok titel: " + titel + ", Författare: " + författare + ", Sidor: " + sidor + ", Genre: " + genre + ", Tillänglig: " + (ärTillänglig? "Ja" : "Nej");
     }
 }
