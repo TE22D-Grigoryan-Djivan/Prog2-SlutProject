@@ -155,15 +155,54 @@ public class Bibliotekssystem {
     }
 
     private void lånaObjektTillAnvändare(){
+        if (användarlista.isEmpty()){
+            System.out.println("Inga användare registrerade. Kan inte låna ut objektet.");
+            return;
+        }
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Ange titeln på låneobjektet: ");
+        String titelAttLåna = sc.nextLine();
+        Låneobjekt objektAttlåna = sökObjekt(titelAttLåna);
+
+        if(objektAttlåna != null){
+            Användare användare = användarlista.get(0);
+            användare.lånaobjekt(objektAttlåna);
+        }
+        else{
+            System.out.println("Objektet " + titelAttLåna+ "hittades inte i biblioteket.");
+        }
 
     }
 
     private void lämnaTillbakaObjekt(){
+        if (användarlista.isEmpty()){
+            System.out.println("Inga användare registrerade.");
+            return;
+        }
+
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Skriv titeln på objektet du vill lämna tillbaka: ");
+        String titelAttLämnaTillbaka = sc.nextLine();
+        Låneobjekt objektAttLämnaTillbaka = sökObjekt(titelAttLämnaTillbaka);
+
+        if(objektAttLämnaTillbaka != null){
+            Användare användare = användarlista.get(0);
+            användare.lämnaTillbaka(objektAttLämnaTillbaka);
+        }
+        else{
+            System.out.println("Objektet " + titelAttLämnaTillbaka+ "hittades inte i biblioteket.");
+        }
 
     }
 
     private void visaLånadeObjekt(){
-
+        if(användarlista.isEmpty()){
+            System.out.println("Inga användare registrerade.");
+            return;
+        }
+        Användare användare = användarlista.get(0);
+        användare.visaLånadeObjekt();
     }
 
     public int parseInt(String text){
